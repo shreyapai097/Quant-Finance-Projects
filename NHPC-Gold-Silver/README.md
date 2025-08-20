@@ -6,6 +6,13 @@ This project explores the relationship between **NHPC Limited (NHPC.NS)** and th
 
 The goal is to understand how NHPC's performance correlates with gold and silver, while also analyzing its volatility and trend behaviour.
 
+The analysis includes:
+
+- Cumulative Returns
+- Technical Indicators (SMA & EMA)
+- Rolling Volatility (20-day)
+- Correlation of Gold & Silver ETFs (Rolling 60-day)
+  
 ---
 
 ## Data Source:
@@ -41,9 +48,10 @@ The goal is to understand how NHPC's performance correlates with gold and silver
 
 ## Key Observations
 
-- NHPC showed moderate volatility compared to commodities.
-- Gold and Silver ETFs were more stable.
-- Rolling correlation revealed that NHPC had a weak-to-moderate correlation with Gold, and even lower correlation with Silver. indicating it is primarily equity-driven rather than commodity-linked.
+- NHPC shows relatively stable cumulative returns compared to Gold and Silver ETFs.
+- Gold ETF tends to have lower volatility, while Silver ETF is more volatile.
+- SMA and EMA trends show how the NHPC price reacts around its averages.
+- Rolling correlation reveals changing relationships between NHPC and precious metals, useful for portfolio diversification.
 
 ---
 
