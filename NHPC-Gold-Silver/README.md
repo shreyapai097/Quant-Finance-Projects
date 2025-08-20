@@ -44,6 +44,8 @@ The analysis includes:
 - Correlation of NHPC with Gold and Silver ETFs.
 - Helps assess whether NHPC behaves more like an equity stock or tracks commodity movements.
 
+  ![60-day Rolling Correlation of NHPC with Gold & Silver ETFs](NHPC-Gold-Silver/rolling_correlation.png)
+
 ---
 
 ## Key Observations
