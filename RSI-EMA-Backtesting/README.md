@@ -89,14 +89,17 @@ This helped identify optimal parameter combinations.
 
 1. Clone this repo
 ````bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/shreyapai097/Quant-Finance-Projects.git
+cd Quant-Finance-Projects/RSI-EMA-Backtesting
 
 2. Installation requirements
 
 pip install -r requirements.txt
 
+pip install yfinance pandas matplotlib seaborn
+
 3. Launch Jupyter Notebook
 
 jupyter notebook
 
-4. Open and run simulation_main.ipynb
+4. Open and run Indo Thai Securities_Backtesting.ipynb
