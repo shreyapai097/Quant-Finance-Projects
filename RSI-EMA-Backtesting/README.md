@@ -27,9 +27,9 @@ The goal is to evaluate the effectiveness of technical analysis indicators:
 
 - **RSI+EMA Hybrid**: comnined filter with EMA-50 and EMA-100
 
-  ![Cumulative Returns: RSI+EMA-50](cumulative_returns_RSI_EMA_50.png)
+  ![Cumulative Returns: RSI+EMA-50](cumulative_returns_RSI+EMA_50.png)
 
-  ![Cumulative Returns: RSI+EMA-100](cumulative_returns_RSI_EMA_100.png)
+  ![Cumulative Returns: RSI+EMA-100](cumulative_returns_RSI+EMA_100.png)
 
 ---
 
