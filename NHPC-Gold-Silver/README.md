@@ -32,22 +32,32 @@ The analysis includes:
 - Growth of ₹1 investment in NHPC, Gold, and Silver.
 - Helps compare relative performance.
 
-![Cumulative Returns of NHPC, GOLDBEES & SILVERBEES](cumulative_returns.png)
+  ![Cumulative Returns of NHPC, GOLDBEES & SILVERBEES](cumulative_returns.png)
   
 
 2. Rolling Volatility (20-day)
 - Measured standard deviation of returns.
 - Highlights periods of high vs. low market uncertainty.
 
+  ![Rolling Volatility](rolling_volatility.png)
+
 3. SMA & EMA (20-day)
 - Simple Moving Average (SMA) and Exponential Moving Average (EMA) compared against the stock price.
 - Used for trend detection.
+
+  ![NHPC](NHPC.png)
+
+  ![GOLDBEES](GOLDBEES.png)
+
+  ![SILVERBEES](SILVERBEES.png)
 
 4. Rolling Correlation (60-day)
 - Correlation of NHPC with Gold and Silver ETFs.
 - Helps assess whether NHPC behaves more like an equity stock or tracks commodity movements.
 
-![60-day Rolling Correlation of NHPC with Gold & Silver ETFs](NHPC-Gold-Silver/rolling_correlation.png)
+  ![Correlation](correlation.png)
+  
+  ![60-day Rolling Correlation of NHPC with Gold & Silver ETFs](rolling_correlation.png)
 
 ---
 
