@@ -18,8 +18,18 @@ The goal is to evaluate the effectiveness of technical analysis indicators:
 
 - **Buy & Hold**: baseine comparison
 - **EMA only strategies**: EMA (10, 20, 50, 100)
+
+  ![Cumulative Returns: EMA](cumulative_returns_EMA.png)
+
 - **RSI (14-day)**: momentum entry/exit
--  **RSI+EMA Hybrid**: comnined filter with EMA-50 and EMA-100
+
+  ![Cumulative Returns: RSI](cumulative_returns_RSI.png)
+
+- **RSI+EMA Hybrid**: comnined filter with EMA-50 and EMA-100
+
+  ![Cumulative Returns: RSI+EMA-50](cumulative_returns_RSI_EMA_50.png)
+
+  ![Cumulative Returns: RSI+EMA-100](cumulative_returns_RSI_EMA_100.png)
 
 ---
 
@@ -30,6 +40,10 @@ We calculate:
 - **Maximum Drawdown**
 - **Annualized Sharpe Ratio**
 - **Win/Loss Days (%)**
+
+  ![Strategy Comparison](RSI_EMA_compare.png)
+
+  ![Final Returns](sharpe_ratio_max_drawdown.png)
 
 ## Results
 
@@ -43,7 +57,7 @@ We calculate:
 | RSI-14      | -77.20            | -81.25       |-5.15         | 10.20 | 26.12  |
 | RSI+EMA-50  | 492.39            | -21.38       | 5.10         | 48.77 | 30.74  |
 | RSI+EMA-100 | 438.93            | -21.59       | 4.57         | 54.92 | 39.34  |
-
+                                                                                   (Data as of 18 August 2025)
 ---
 
 ## Parameter Tuning
@@ -52,6 +66,10 @@ Grid search was performed across:
 - **RSI Windows**: 10, 14, 21
 - **RSI Thresholds**: (25/75), (30/70)
 - **EMA spans**: 10, 20, 50, 100
+
+  ![Sharpe Ratio Heatmap](heatmap_sharpe_ratio.png)
+
+  ![Final Returns Heatmap](heatmap_final_returns.png)
 
 This helped identify optimal parameter combinations.
 
