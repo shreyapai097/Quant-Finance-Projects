@@ -32,7 +32,7 @@ The analysis includes:
 - Growth of ₹1 investment in NHPC, Gold, and Silver.
 - Helps compare relative performance.
 
-![Cumulative Returns of NHPC, GOLDBEES & SILVERBEES](NHPC-Gold-Silver/cumulative_returns.png)
+![Cumulative Returns of NHPC, GOLDBEES & SILVERBEES](Quant-Finance-Projects/NHPC-Gold-Silver/cumulative_returns.png)
   
 
 2. Rolling Volatility (20-day)
